@@ -13,11 +13,12 @@ public class Day2 {
 	@BeforeTest //Before executing any other methods in this file, TestNG will first execute this method
 	public void prerequisite()
 	{
-		System.out.println("Before Test, first execution");
+		System.out.println("Before Test");
 	}
 	@AfterTest
+	//Will execute in last of test suite and not at the end of framework
 	public void last()
 	{
-		System.out.println("This will execute in the last");
+		System.out.println("After Test");
 	}
 }
