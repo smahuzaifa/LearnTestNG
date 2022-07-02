@@ -12,7 +12,7 @@
        <class name="test.Day2"/>
        <class name="test.Day4">
        	<methods>
-       		<include name ="APILoginHome"/>
+       		<include name ="MobileLoginCar"/>
        		<!-- This will only include the above case -->
        		</methods>
        </class>
@@ -22,7 +22,11 @@
   	<classes>
   		<class name="test.Day3">
   			<methods>
-  				 <exclude name="API.*"/>
+  				<!-- <exclude name="MobileLoginCar"/> -->
+  				<!-- the above statement will exclude that method 
+  				to exclude multiple cases we will use regular expression as below-->
+  				<exclude name="API.*"/>
+  				<!--  This will exclude all test cases starting with name API -->
   			</methods>
   		</class>
   	</classes>

@@ -14,7 +14,7 @@ public class Day4 {
 		System.out.println("Mobile Login Home");
 	}
 	@Test
-	public void ç()
+	public void APILoginHome()
 	{
 		System.out.println("API Login Home");
 	}
