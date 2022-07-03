@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="15" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-03T11:33:33 IST" name="Suite" finished-at="2022-07-03T11:33:33 IST" duration-ms="62">
+  <suite started-at="2022-07-03T11:58:20 IST" name="Default suite" finished-at="2022-07-03T11:58:21 IST" duration-ms="62">
     <groups>
-      <group name="Smoke">
-        <method signature="Day2.smoke()[pri:0, instance:test.Day2@79da8dc5]" name="smoke" class="test.Day2"/>
-        <method signature="Day4.smoke2()[pri:0, instance:test.Day4@5fd4f8f5]" name="smoke2" class="test.Day4"/>
-        <method signature="Day4.smoke3()[pri:0, instance:test.Day4@5fd4f8f5]" name="smoke3" class="test.Day4"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-07-03T11:33:33 IST" name="Test" finished-at="2022-07-03T11:33:33 IST" duration-ms="62">
-      <class name="test.Day2">
-        <test-method signature="smoke()[pri:0, instance:test.Day2@79da8dc5]" started-at="2022-07-03T11:33:33 IST" name="smoke" finished-at="2022-07-03T11:33:33 IST" duration-ms="14" status="PASS">
+    <test started-at="2022-07-03T11:58:20 IST" name="Default test" finished-at="2022-07-03T11:58:21 IST" duration-ms="62">
+      <class name="test.Day5">
+        <test-method signature="APILoginCar4()[pri:0, instance:test.Day5@5552768b]" started-at="2022-07-03T11:58:20 IST" name="APILoginCar4" finished-at="2022-07-03T11:58:20 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smoke -->
-      </class> <!-- test.Day2 -->
-      <class name="test.Day4">
-        <test-method signature="smoke2()[pri:0, instance:test.Day4@5fd4f8f5]" started-at="2022-07-03T11:33:33 IST" name="smoke2" finished-at="2022-07-03T11:33:33 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- APILoginCar4 -->
+        <test-method signature="MobileLoginCar()[pri:0, instance:test.Day5@5552768b]" started-at="2022-07-03T11:58:21 IST" name="MobileLoginCar" finished-at="2022-07-03T11:58:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smoke2 -->
-        <test-method signature="smoke3()[pri:0, instance:test.Day4@5fd4f8f5]" started-at="2022-07-03T11:33:33 IST" name="smoke3" finished-at="2022-07-03T11:33:33 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- MobileLoginCar -->
+        <test-method signature="WebLoginCar()[pri:0, instance:test.Day5@5552768b]" started-at="2022-07-03T11:58:21 IST" name="WebLoginCar" finished-at="2022-07-03T11:58:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smoke3 -->
-      </class> <!-- test.Day4 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- WebLoginCar -->
+        <test-method signature="APILoginCar()[pri:0, instance:test.Day5@5552768b]" started-at="2022-07-03T11:58:21 IST" name="APILoginCar" finished-at="2022-07-03T11:58:21 IST" depends-on-methods="test.Day5.WebLoginCar" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCar -->
+        <test-method signature="APILoginCar2()[pri:0, instance:test.Day5@5552768b]" started-at="2022-07-03T11:58:21 IST" name="APILoginCar2" finished-at="2022-07-03T11:58:21 IST" depends-on-methods="test.Day5.WebLoginCar, test.Day5.MobileLoginCar" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCar2 -->
+      </class> <!-- test.Day5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
