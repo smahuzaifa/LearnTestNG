@@ -1,13 +1,19 @@
 package test;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 //In TestNG the flow of execution would be based on alphabetical order of method name among similar level methods
 public class Day5 {
+	@Parameters({"URL"}) //Value from TestNG XML file lands here
 	@Test
-	public void WebLoginCar()
+	public void WebLoginCar(String urlname) //Value that has landed above in parameters will be caught here
+	//Should be executed from XML file
 	{
 		System.out.println("Web Login Car");
+		System.out.println();
+		System.out.println(urlname);
+		System.out.println();
 	}
 	@Test
 	public void MobileLoginCar()
