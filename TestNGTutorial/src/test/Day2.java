@@ -10,6 +10,11 @@ public class Day2 {
 	{
 		System.out.println("Day 2");
 	}
+	@Test (groups= {"Smoke"})
+	public void smoke()
+	{
+		System.out.println("Smoke");
+	}
 	@BeforeTest //Before executing any other methods in this file, TestNG will first execute this method
 	public void prerequisite()
 	{
@@ -22,3 +27,4 @@ public class Day2 {
 		System.out.println("After Test");
 	}
 }
+ 

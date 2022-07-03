@@ -18,6 +18,15 @@ public class Day4 {
 	{
 		System.out.println("API Login Home");
 	}
-
-
+	@Test(groups= {"Smoke"})
+	public void smoke2()
+	{
+		System.out.println("Smoke 2");
+	}
+	@Test(groups= {"Smoke"})
+	public void smoke3()
+	{
+		System.out.println("Smoke 3");
+	}
+	
 }

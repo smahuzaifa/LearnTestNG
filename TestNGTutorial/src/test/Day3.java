@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+//In TestNG the flow of execution would be based on alphabetical order of method name among similar level methods
 public class Day3 {
 	@Test
 	public void WebLoginCar()
