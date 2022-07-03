@@ -6,7 +6,7 @@
 <!-- Used to run a particular group of test cases that belong to mentioned tag
 We can trigger execution of selected test cases out of our test suite -->
   		<run>
-  			<include name="Smoke"/>
+  			<exclude name="Smoke"/>
   		</run>	
   	</groups>
 	  <classes>
