@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Basics {
@@ -21,5 +22,15 @@ public class Basics {
 	public void Demo2()
 	{
 		System.out.println("Second Test Case in TestNG");
+	}
+	@Parameters({"URL","APIKey"})
+	@Test
+	public void Demo3(String url1,String url2)
+	{
+		System.out.println();
+		System.out.println(url1);
+		System.out.println("Multiple Parameter");
+		System.out.println(url2);
+		System.out.println();
 	}
 }

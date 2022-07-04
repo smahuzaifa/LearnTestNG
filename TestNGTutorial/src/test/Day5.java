@@ -10,7 +10,7 @@ public class Day5 {
 	public void WebLoginCar(String urlname) //Value that has landed above in parameters will be caught here
 	//Should be executed from XML file
 	{
-		System.out.println("Web Login Car");
+		System.out.println("Personal LOAN");
 		System.out.println();
 		System.out.println(urlname);
 		System.out.println();

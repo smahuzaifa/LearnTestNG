@@ -4,14 +4,19 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 //In TestNG the flow of execution would be based on alphabetical order of method name among similar level methods
 public class Day3 {
+	@Parameters({"URL"})
 	@Test
-	public void WebLoginCar()
+	public void WebLoginCar(String urlname)
 	{
 		System.out.println("Web Login Car");
+		System.out.println();
+		System.out.println(urlname);
+		System.out.println();
 	}
 	@Test
 	public void MobileLoginCar()
@@ -28,10 +33,14 @@ public class Day3 {
 	{
 		System.out.println("API Login Car2");
 	}
+	@Parameters({"URL"})
 	@Test
-	public void APILoginCar3()
+	public void APILoginCar3(String url2)
 	{ 
 		System.out.println("API Login Car3");
+		System.out.println();
+		System.out.println(url2);
+		System.out.println();
 	}
 	@Test
 	public void APILoginCar4()
