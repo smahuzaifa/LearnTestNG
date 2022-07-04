@@ -51,7 +51,7 @@ public class Day2 {
 		//3nd set
 		data[2][0]="secondrowusername";
 		data[2][1]="secondpassword";
-		return data; //have to return data
+		return data; //must return data
 	}
 }
  
