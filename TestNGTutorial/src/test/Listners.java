@@ -39,7 +39,7 @@ public class Listners implements ITestListener {
 		//response if api is failed
 		System.out.println("I  failed listners class code ");
 		//To print name of test cases that actually failed we do this
-		System.out.println("I  failed listners class code"+result.getName());
+		System.out.println("I  failed listners class code" +result.getName());
 	}
 
 	@Override

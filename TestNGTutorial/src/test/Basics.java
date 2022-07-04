@@ -17,7 +17,7 @@ public class Basics {
 	public void Demo1()
 	{
 		System.out.println("Learning TestNG");
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 	}
 	
 	@Test
