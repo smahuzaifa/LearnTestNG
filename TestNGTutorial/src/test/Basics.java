@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -16,6 +17,7 @@ public class Basics {
 	public void Demo1()
 	{
 		System.out.println("Learning TestNG");
+		Assert.assertTrue(false);
 	}
 	
 	@Test
