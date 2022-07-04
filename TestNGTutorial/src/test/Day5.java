@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 //In TestNG the flow of execution would be based on alphabetical order of method name among similar level methods
 public class Day5 {
-	@Parameters({"URL"}) //Value from TestNG XML file lands here
+	@Parameters({"URL"}) //Value from TestNG XML file lands here. This is a GLOBAL environment variable
 	@Test
 	public void WebLoginCar(String urlname) //Value that has landed above in parameters will be caught here
 	//Should be executed from XML file

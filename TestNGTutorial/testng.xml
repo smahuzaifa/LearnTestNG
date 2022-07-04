@@ -3,7 +3,7 @@
 <suite name="Suite">
 <!-- In one suite we can have multiple projects or test shell base on our requirement -->
   <test name="Test">
-  <parameter name="URL" value ="testlevelpersonalloan.com"/> <!-- Test level parameterisation -->
+  <parameter name="URL" value ="testlevelpersonalloan.com"/> <!-- Test level parameterization -->
   <parameter name="APIKey" value ="APIKey"/>
   <!--  One test shell is like in loan department- car, home will be different test
   So, in one test shell we can have multiple class, where each class can be the .java file
